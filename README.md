@@ -1,11 +1,9 @@
-
- * Build status: [![Build Status](https://travis-ci.org/sannies/mp4parser.svg?branch=master)](https://travis-ci.org/sannies/mp4parser)
- * Current central released version: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.googlecode.mp4parser/isoparser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.googlecode.mp4parser/isoparser)
-
 Java MP4 Parser
 ====================
 
 A Java API to read, write and create MP4 container. Manipulating containers is different from encoding and decoding videos and audio. 
+
+**This fork does not need aspectj, and it's meant to be android friendly.**
 
 Using the library
 ------------------
@@ -20,7 +18,7 @@ The library is published to Maven repositories. Each release is pushed to a stag
   </dependency>
 ```
 
-For projects that do not use a dependency management tool each release's artifacts (jar, javadoc-jar, source-jar) are attached to the release page. Please be aware that the project requires the aspectj-rt.jar library. 
+For projects that do not use a dependency management tool each release's artifacts (jar, javadoc-jar, source-jar) are attached to the release page.
 
 
 What can you do?
